@@ -2,7 +2,7 @@ package ifQuest;
 
 import java.util.Scanner;
 
-public class Main{
+public class leapYear{
 /*윤년 구하기 
  * 문제
 연도가 주어졌을 때, 윤년이면 1, 아니면 0을 출력하는 프로그램을 작성하시오.
