@@ -11,12 +11,24 @@ public class Bee {
 	
 		Scanner scan = new Scanner(System.in);
 		System.out.println("입력");
-		int a = scan.nextInt();
+		int input = scan.nextInt();
 		
-		int tmp = a/6+1;
+		int count =1; 
+		int range = 2;
+		// 6의 배수가 되어줄 range 
 		
-		System.out.println("출력"+tmp);
-		// 악 틀렸다 
+		if (input ==1) {
+			System.out.println("1");
+		}else {
+
+			while(range<=input) {
+				range += count * 6;
+				count ++;
+				
+			}
+			
+			System.out.println(count);
+		}
 		
 		
 		
