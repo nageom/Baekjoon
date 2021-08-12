@@ -30,15 +30,16 @@ public class Array3 {
         for (int i = 0; i < N; i++) {
             // 해당 인덱스의 값을 1 증가
         	check[Integer.parseInt(br.readLine())] ++;
-        }
+        }//중복되면 2 3 4 이렇게 올라감
  
+        
         br.close();
  
         StringBuilder sb = new StringBuilder();
  
         for(int i = 1; i < 10001; i++){
         	
-            while(check[i] > 0){ //3이면 0될때까지 빼면서 출력
+            while(check[i] > 0){ // 3이면 0될때까지 빼면서 출력
                 sb.append(i).append('\n');
                 check[i]--;
             }
