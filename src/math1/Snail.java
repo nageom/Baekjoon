@@ -29,8 +29,7 @@ public class Snail {
 		}
 		System.out.println(count);
 		*/
-		
-		
+
 		int day = (V - B) / (A - B);
         
 		// 나머지가 있을 경우 (잔여 블럭이 있을 경우)
