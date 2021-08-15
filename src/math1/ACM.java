@@ -18,6 +18,18 @@ public class ACM {
 		// 즉 몇 번째 인지 받는 정수를 높이 H로 나누고 몫은 호수의 뒷번호 XX가 되고
 		// 나머지는 층수 YY가 될 것 같은데 ? 
 		
+		int T = scan.nextInt();
+		int H = scan.nextInt();
+		int W = scan.nextInt();
+		int N = scan.nextInt();
+		
+		int x = H/N;
+		int y = H%N;
+		String a="";
+		if( y==0) {
+			a+= x;
+			a+= 
+		}
 		
 		
 		
