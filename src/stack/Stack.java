@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import com.sun.xml.internal.ws.api.pipe.NextAction;
 
+// ÇÏ´ÂÁß 
 public class Stack {
 
 	public static void main(String[] args) {
