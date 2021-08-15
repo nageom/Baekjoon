@@ -26,11 +26,12 @@ public class ACM {
 		int x = H/N;
 		int y = H%N;
 		String a="";
+		/*
 		if( y==0) {
 			a+= x;
 			a+= 
 		}
-		
+		*/
 		
 		
 	}
