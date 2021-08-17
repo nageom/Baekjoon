@@ -7,7 +7,7 @@ import com.sun.xml.internal.ws.api.pipe.NextAction;
 // 하는중 //test
 public class Stack {
 
-
+/*아 왜 커밋안돼 왜왜왜왜왜왜왜왜오애*/
 	public static int[] stack ;
 	public static int position = -1; 
 	
