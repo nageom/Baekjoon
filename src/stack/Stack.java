@@ -29,7 +29,7 @@ public class Stack {
 			
 			command = scan.next();
 			
-			switch (command) {
+			switch (command) {//
 			
 			case "pop" :
 				System.out.println(pop());
