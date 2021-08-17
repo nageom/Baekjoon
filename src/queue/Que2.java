@@ -5,6 +5,6 @@ public class Que2 {
 		
 		//큐를 직접 규현해보자. 
 		
-		//test
+		//test //test
 	}
 }
